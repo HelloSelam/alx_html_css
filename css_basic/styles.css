@@ -1,0 +1,25 @@
+/* Set up body as a vertical flex container */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Set up main as a horizontal flex container */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+/* Split content: article gets 2 parts, aside gets 1 */
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+/* Aside takes 1 part of the space and is scrollable */
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
