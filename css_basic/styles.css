@@ -3,7 +3,22 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: #cbb9ec;
+  background-color: #fefefe;
+  color: #333333;
+}
+
+/* === Header === */
+header {
+  background-color: #ffffff;
+  border-bottom: 2px solid #eeeeee;
+}
+
+header a {
+  color: #4c5cff;
+}
+
+header li.logo {
+  color: #ff4c60;
 }
 
 /* Set up main as a horizontal flex container */
@@ -17,25 +32,52 @@ main {
 article {
   flex: 2;
   overflow-y: auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 /* Aside takes 1 part of the space and is scrollable */
 aside {
   flex: 1;
   overflow-y: auto;
-   background-color: #debbbb;
-}
-header {
-  background-color: #f9f9f9;
-  border-bottom: 2px solid #ccc;
-}
-
-footer {
-  background-color: #eee;
-  text-align: center;
-  padding-top: 20px;
+  background-color: #f3f4f6;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 a {
-  color: #0077cc;
+  color: #ff4c60;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* === Table Styling === */
+table {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #4c5cff;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+footer {
+  background-color: #ffffff;
+  color: #333333;
+  border-top: 2px solid #eeeeee;
 }
