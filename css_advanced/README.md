@@ -1,6 +1,6 @@
 # SmileSchool – Advanced HTML & CSS
 
-This project is part of the ALX Software Engineering program and demonstrates advanced HTML and CSS skills by recreating a landing page based on a provided design.
+This project is part of the ALX Software Engineering program and demonstrates advanced HTML and CSS skills by recreating a responsive landing page based on a provided design.
 
 ## 📁 Project Directory
 
@@ -8,25 +8,32 @@ This project is part of the ALX Software Engineering program and demonstrates ad
 **Files included**:
 - `index.html`
 - `README.md`
-- Associated images and assets (as provided)
+- Associated images and assets
 
 ## 🖥️ Project Description
 
-The goal of this project is to build a responsive one-page website called **SmileSchool**, using only HTML and CSS. The final result replicates a high-fidelity design that includes:
+The goal of this project is to build a responsive one-page website called **SmileSchool**, using only HTML and CSS. The final result replicates a professional design layout that includes:
 
-- A hero section with a background image and call-to-action  
-- A section highlighting top instructors  
+- A hero section with background image and call-to-action  
+- Instructor showcase  
 - Testimonials  
 - Popular tutorials  
 - Features of free membership  
-- FAQ section  
+- Frequently Asked Questions (FAQ)  
 - Footer with logo and social links  
 
-All HTML is semantic and structured for accessibility and clean layout, with styling applied through custom CSS.
+All HTML is semantic and accessible. The design emphasizes responsiveness, typography, and structured layout using modern CSS features.
 
-## 🚀 How to Run
+## 🛠️ Technologies Used
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/HelloSelam/alx_html_css.git
-   cd alx_html_css/css_advanced
+- HTML5  
+- CSS3  
+- Flexbox & Grid Layout  
+- CSS Variables (Custom Properties)  
+- Media Queries for Responsive Design  
+- Semantic HTML
+
+## ✅ Author
+
+Created by [Selamawit Yeruk](https://github.com/HelloSelam)  
+ALX Software Engineering Program – Advanced HTML & CSS Project
